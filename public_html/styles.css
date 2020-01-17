@@ -1,0 +1,26 @@
+.my-picture {
+  height: 40px;
+  width: auto;
+}
+
+body {
+  background-color: #5b5b5b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-me {
+  max-width: 720px;
+}
+
+.dropdown-menu {
+  background-color: #343a40;
+}
+
+.dropdown-item {
+  color: #808080;
+}
+
+.dropdown-item:hover {
+  background-color: #343a40;
+  color: #cccecf;
+}
