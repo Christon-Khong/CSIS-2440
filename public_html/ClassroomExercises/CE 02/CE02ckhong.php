@@ -22,22 +22,28 @@
         //here write a loop that will run 10 times and compare the scores, increment the score if greater, decrementing if less and leaving it if equal
         //this should print each round out in the table.
         for ($i = 0; $i < 10; $i++) {
+            #generate random number for both player and computer
             $player = rand(0, 100);
             $computer = rand(0, 100);
+            #If player is higher, increment score
             if ($player > $computer) {
                 print("<td>Player won this round</td></tr>\n");
                 $score++;
             }
+            #If player is lower, decrement score
             else if($player < $computer)
             {
                 print("<td>Player lost this round</td></tr>\n");
                 $score--;
             }
+            #Player and computer tied
             else{
                 print("<td>Player tied this round</td></tr>\n");
             }
+            #Print result of the round
             print("<tr><th>$player</th><th>$computer</th><th>$i</th></tr>\n");
         }
+        #prints overall score at end of ten rounds
         print("<tr><td colspan=2>$score</td><td>Player Score</td></tr><table>\n");
 
         //Year of the---
