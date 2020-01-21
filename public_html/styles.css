@@ -4,8 +4,15 @@
 }
 
 body {
+  margin-top: 75px;
   background-color: #5b5b5b;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .about-me {

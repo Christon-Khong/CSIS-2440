@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#"><img class="img-fluid rounded mx-auto d-block my-picture" src="https://media-exp1.licdn.com/dms/image/C4E03AQG8OCFAsMW17Q/profile-displayphoto-shrink_200_200/0?e=1584576000&v=beta&t=dIq1hRrI9_G3sWHv7Pg2eD16N44StxLI6lDkVM70zF8" alt="Christon"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,13 +66,21 @@
 
         </div>
     </nav>
+    <!-- About me section -->
     <div class="d-flex flex-column text-light">
-        <div>
-            <h2 class="m-3">About Me</h2>
-            <div class="d-flex flex-row flex-wrap">
-                <p class="m-3 mx-xs-auto about-me">I enjoy playing games and spending time with family. I love travelling with my wife and exploring the local cuisine. My latest favorite book is "Tuesdays with Morrie" and I enjoy watching many movies including Lord of the Rings.</p>
-                <img class="img-fluid rounded m-auto lotr-pic" src="https://preview.redd.it/k7osr6zxg3821.jpg?width=960&crop=smart&auto=webp&s=ebbfb4897b5144b23c82cc6db12d20a35cd88bf8">
+        <div class="d-flex flex-row flex-wrap justify-content-center">
+            <div class="about-me">
+                <h2 class="m-3">About Me</h2>
+                <p class="m-3 mx-xs-auto text-xs-center ">I enjoy playing games and spending time with family. I love travelling with my wife and exploring the local cuisine. My latest favorite book is "Tuesdays with Morrie" and I enjoy watching many movies including Lord of the Rings.</p>
+                <p class="m-3 mx-xs-auto text-xs-center ">It began with the forging of the Great Rings. Three were given to the Elves, immortal, wisest and fairest of all beings. Seven to the Dwarf-Lords, great miners and craftsmen of the mountain halls. And nine, nine rings were gifted to the race of Men, who above all else desire power. For within these rings was bound the strength and the will to govern each race. But they were all of them deceived, for another ring was made. Deep in the land of Mordor, in the Fires of Mount Doom, the Dark Lord Sauron forged a master ring, and into this ring he poured his cruelty, his malice and his will to dominate all life.</p>
+                <p class="m-3 mx-xs-auto text-xs-center ">One ring to rule them all.</p>
+                <p class="m-3 mx-xs-auto text-xs-center ">One by one, the free lands of Middle-Earth fell to the power of the Ring, but there were some who resisted. A last alliance of men and elves marched against the armies of Mordor, and on the very slopes of Mount Doom, they fought for the freedom of Middle-Earth. Victory was near, but the power of the ring could not be undone. It was in this moment, when all hope had faded, that Isildur, son of the king, took up his father’s sword.</p>
+                <p class="m-3 mx-xs-auto text-xs-center ">Sauron, enemy of the free peoples of Middle-Earth, was defeated. The Ring passed to Isildur, who had this one chance to destroy evil forever, but the hearts of men are easily corrupted. And the ring of power has a will of its own. It betrayed Isildur, to his death.</p>
+                <p class="m-3 mx-xs-auto text-xs-center ">And some things that should not have been forgotten were lost. History became legend. Legend became myth. And for two and a half thousand years, the ring passed out of all knowledge. Until, when chance came, it ensnared another bearer.</p>
+                <p class="m-3 mx-xs-auto text-xs-center ">It came to the creature Gollum, who took it deep into the tunnels of the Misty Mountains. And there it consumed him. The ring gave to Gollum unnatural long life. For five hundred years it poisoned his mind, and in the gloom of Gollum’s cave, it waited. Darkness crept back into the forests of the world. Rumor grew of a shadow in the East, whispers of a nameless fear, and the Ring of Power perceived its time had come. It abandoned Gollum, but then something happened that the Ring did not intend. It was picked up by the most unlikely creature imaginable: a hobbit, Bilbo Baggins, of the Shire.</p>
+                <p class="m-3 mx-xs-auto text-xs-center ">For the time will soon come when hobbits will shape the fortunes of all.</p>
             </div>
+            <img class="img-fluid rounded m-5 text-xs-center lotr-pic" src="https://preview.redd.it/k7osr6zxg3821.jpg?width=960&crop=smart&auto=webp&s=ebbfb4897b5144b23c82cc6db12d20a35cd88bf8">
         </div>
     </div> <?php
 
