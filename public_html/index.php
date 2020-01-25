@@ -46,8 +46,8 @@
                         Classroom Exercises
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="https://csis-2440-ckhong.000webhostapp.com/ClassroomExercises/CE01ckhong.php">CE 01</a>
-                        <a class="dropdown-item" href="#">CE 02</a>
+                        <a class="dropdown-item" href="https://csis-2440-ckhong.000webhostapp.com/ClassroomExercises/CE%2001/CE01ckhong.php">CE 01</a>
+                        <a class="dropdown-item" href="https://csis-2440-ckhong.000webhostapp.com/ClassroomExercises/CE%2002/CE02ckhong.php">CE 02</a>
                         <a class="dropdown-item" href="#">CE 03</a>
                         <a class="dropdown-item" href="#">CE 04</a>
                         <a class="dropdown-item" href="#">CE 05</a>

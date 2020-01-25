@@ -92,7 +92,6 @@
             break;
             default: 
                 echo 'Human';
-
         }
     ?>
 
