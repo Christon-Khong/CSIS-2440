@@ -6,8 +6,14 @@ and open the template in the editor.
 -->
 <?php
 //get the post variables and include the required pages
+include "IncludeMe.php";
+print_r($_POST);
+$theShip = $_POST['ship'];
+$departure = $_POST['departure'];
+$arrival = $_POST['arrival'];
 ?>
 <html>
+
     <head>
         <meta charset="UTF-8">
         <title>Results</title>
@@ -36,18 +42,28 @@ and open the template in the editor.
                     <h3>Leaving From:
                     <?php
                     //print name of planet and image
+                        <h3>Leaving from:
+                        print($planets[$departure]["name"]."</h3>");
+                        print("<img src='imgs/.$departure.jpg' alt=''/>");
                     ?>
                 </div>
                 <div class="col-3">
                     <h3>Arriving At:
                     <?php
                     //print name of planet and image
+                        print("<p>".$planets[$arrival]["name"]."</p>");
+                        print("<img src='imgs/.$arrival.jpg' alt=''/>");
                     ?>
                 </div>
                 <div class="col-6">
                     <h3>Information</h3>
                     <?php
                     //print the name of the ship, the distance using the function and the time it will take using the speed of the ship they picked
+                        print("<p>You picked the ".$ships[$theShip]['name']."</p>");
+                        $dist=PlanetDistance($planets[$departure]["x"], $planets[$departure]["y"], $planets[$departure]["z"],
+                        $planets[$arrival]["x"], $planets[$arrival]["y"], $planets[$arrival]["z"]);
+                        printf("<p>The distance is: %.2f</p>", $dist);
+                        printf("<p>The time is hould take is: %.2f cycles</p>", ($dist/$ships[$theShip]['speed']));
                     ?>
                 </div>
             </div>

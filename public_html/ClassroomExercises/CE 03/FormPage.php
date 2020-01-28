@@ -40,7 +40,7 @@ $shipsArray= array(0=>"Crate",1=>"Lightening",2=>"Starliner",3=>"VD Tug", 4=>"Bi
                                 <option vlaue="--">--</option>
                                 <?php
                                 for($i=0;$i<6;$i++){
-                                print("<option value=".$i.">".$shipsArray[$i]."</option>");
+                                    print("<option value=".$i.">".$shipsArray[$i]."</option>");
                                 }
                                 ?>
                             </select >
@@ -53,7 +53,7 @@ $shipsArray= array(0=>"Crate",1=>"Lightening",2=>"Starliner",3=>"VD Tug", 4=>"Bi
                                 }
                                 ?>
                             </select>
-                            <lable for="planet2">Destination planet</lable>
+                            <label for="planet2">Destination planet</label>
                             <select id="planet2" name="arrival">
                                 <option vlaue="--">--</option>
                                 <?php
