@@ -42,17 +42,16 @@ $arrival = $_POST['arrival'];
                     <h3>Leaving From:
                     <?php
                     //print name of planet and image
-                        <h3>Leaving from:
                         print($planets[$departure]["name"]."</h3>");
-                        print("<img src='imgs/.$departure.jpg' alt=''/>");
+                        print("<img src='imgs/$departure.jpg' alt=''/>");
                     ?>
                 </div>
                 <div class="col-3">
                     <h3>Arriving At:
                     <?php
                     //print name of planet and image
-                        print("<p>".$planets[$arrival]["name"]."</p>");
-                        print("<img src='imgs/.$arrival.jpg' alt=''/>");
+                        print($planets[$arrival]["name"]."</h3>");
+                        print("<img src='imgs/$arrival.jpg' alt=''/>");
                     ?>
                 </div>
                 <div class="col-6">
