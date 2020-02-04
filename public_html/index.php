@@ -36,7 +36,7 @@
                         Assignments
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Assignment 1</a>
+                        <a class="dropdown-item" href="https://csis-2440-ckhong.000webhostapp.com/Assignments/Assignment%201/FormPage.php">Assignment 1</a>
                         <a class="dropdown-item" href="#">Assignment 2</a>
                         <a class="dropdown-item" href="#">Assignment 3</a>
                     </div>
@@ -50,6 +50,7 @@
                         <a class="dropdown-item" href="https://csis-2440-ckhong.000webhostapp.com/ClassroomExercises/CE%2002/CE02ckhong.php">CE 02</a>
                         <a class="dropdown-item" href="https://csis-2440-ckhong.000webhostapp.com/ClassroomExercises/CE%2003/FormPage.php">CE 03</a>
                         <a class="dropdown-item" href="https://csis-2440-ckhong.000webhostapp.com/ClassroomExercises/CE%2004/ReadingExampleForm.php">CE 04</a>
+                        <a class="dropdown-item" href="#">CE 04</a>
                         <a class="dropdown-item" href="#">CE 05</a>
                         <a class="dropdown-item" href="#">CE 06</a>
                         <a class="dropdown-item" href="#">CE 07</a>
