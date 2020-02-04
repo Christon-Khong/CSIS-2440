@@ -6,6 +6,11 @@ and open the template in the editor.
 -->
 <?php
 //get post variable
+$capName = htmlentities($_POST["CapName"]);
+$capName = strtolower($capName);
+$capName = ucwords($capName);
+$capAge = $_POST["CapAge"];
+$shipName = $_POST["ShipName"];
 ?>
 <html>
     <head>
@@ -19,8 +24,40 @@ and open the template in the editor.
                     <div class="col-2"></div>
                     <div class="col-8">
                         <?php
-                        // put your code here
-                        
+                            print("<h2>Captain ".$capName."</h2>");
+                            print("<h3>Age ".$capAge."</h3>");
+                        ?>
+                        <h3>The early Career started with:</h3>
+                        <?php
+                            // put your code here
+                            $earlyYearsText = fopen("EarlyYears.txt", "r") or die("Unable to open file!");
+                            $pos = 0;
+                            while (!feof($earlyYearsText)) {
+                                $randomEarly[$pos] = fgets($earlyYearsText);
+                                $pos++;
+                            }
+                            fclose($earlyYearsText);
+                            print("<ul><li>".$randomEarly[1]. "</li><li>" .$randomEarly[2]. "</li></ul>");
+                            shuffle($randomEarly);
+                        ?>
+                        <h3>Some of your tours include:</h3>
+                        <?php
+                            if ($capAge > 25) {
+                                $tours = 4 + ($capAge - 26);
+                            } else {
+                                $tours = floor(($capAge - 17) / 2);
+                            }
+                            #Tours.txt read and write
+                            $tourText = fopen("Tours.txt", "r") or die("Unable to open file!");
+                            $pos = 0;
+                            while ($pos < $tours) {
+                                $randomEarly[$pos] = fgets($tourText);
+                                print("<p>".$randomEarly[$pos]."</p>");
+                                $pos++;
+                            }
+                            fclose($tourText);
+                            shuffle($randomEarly);
+                            
                         ?>
                     </div>
                 </div>
