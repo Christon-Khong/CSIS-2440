@@ -37,8 +37,8 @@ $shipName = $_POST["ShipName"];
                                 $pos++;
                             }
                             fclose($earlyYearsText);
-                            print("<ul><li>".$randomEarly[1]. "</li><li>" .$randomEarly[2]. "</li></ul>");
                             shuffle($randomEarly);
+                            print("<ul><li>".$randomEarly[1]. "</li><li>" .$randomEarly[2]. "</li></ul>");
                         ?>
                         <h3>Some of your tours include:</h3>
                         <?php
@@ -50,14 +50,15 @@ $shipName = $_POST["ShipName"];
                             #Tours.txt read and write
                             $tourText = fopen("Tours.txt", "r") or die("Unable to open file!");
                             $pos = 0;
-                            while ($pos < $tours) {
+                            while (!feof($tourText)) {
                                 $randomEarly[$pos] = fgets($tourText);
-                                print("<p>".$randomEarly[$pos]."</p>");
                                 $pos++;
                             }
                             fclose($tourText);
                             shuffle($randomEarly);
-                            
+                            for ($i = 0; $i < $tours; $i++) {
+                                print("<p>".$randomEarly[$i]."</p>");
+                            }
                         ?>
                     </div>
                 </div>
