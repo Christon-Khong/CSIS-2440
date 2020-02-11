@@ -26,7 +26,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="https://csis-2440-ckhong.000webhostapp.com/">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="https://csis-2440-ckhong.hostingerapp.com/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">E-commerce Site</a>
@@ -36,7 +36,7 @@
                         Assignments
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="https://csis-2440-ckhong.000webhostapp.com/Assignments/Assignment%201/FormPage.php">Assignment 1</a>
+                        <a class="dropdown-item" href="https://csis-2440-ckhong.hostingerapp.com/Assignments/Assignment%201/FormPage.php">Assignment 1</a>
                         <a class="dropdown-item" href="#">Assignment 2</a>
                         <a class="dropdown-item" href="#">Assignment 3</a>
                     </div>
@@ -46,10 +46,10 @@
                         Classroom Exercises
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="https://csis-2440-ckhong.000webhostapp.com/ClassroomExercises/CE%2001/CE01ckhong.php">CE 01</a>
-                        <a class="dropdown-item" href="https://csis-2440-ckhong.000webhostapp.com/ClassroomExercises/CE%2002/CE02ckhong.php">CE 02</a>
-                        <a class="dropdown-item" href="https://csis-2440-ckhong.000webhostapp.com/ClassroomExercises/CE%2003/FormPage.php">CE 03</a>
-                        <a class="dropdown-item" href="https://csis-2440-ckhong.000webhostapp.com/ClassroomExercises/CE%2004/ReadingExampleForm.php">CE 04</a>
+                        <a class="dropdown-item" href="https://csis-2440-ckhong.hostingerapp.com/ClassroomExercises/CE%2001/CE01ckhong.php">CE 01</a>
+                        <a class="dropdown-item" href="https://csis-2440-ckhong.hostingerapp.com/ClassroomExercises/CE%2002/CE02ckhong.php">CE 02</a>
+                        <a class="dropdown-item" href="https://csis-2440-ckhong.hostingerapp.com/ClassroomExercises/CE%2003/FormPage.php">CE 03</a>
+                        <a class="dropdown-item" href="https://csis-2440-ckhong.hostingerapp.com/ClassroomExercises/CE%2004/ReadingExampleForm.php">CE 04</a>
                         <a class="dropdown-item" href="#">CE 04</a>
                         <a class="dropdown-item" href="#">CE 05</a>
                         <a class="dropdown-item" href="#">CE 06</a>
