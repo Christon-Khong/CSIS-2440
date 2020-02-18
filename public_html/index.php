@@ -50,9 +50,8 @@
                         <a class="dropdown-item" href="https://csis-2440-ckhong.hostingerapp.com/ClassroomExercises/CE%2002/CE02ckhong.php">CE 02</a>
                         <a class="dropdown-item" href="https://csis-2440-ckhong.hostingerapp.com/ClassroomExercises/CE%2003/FormPage.php">CE 03</a>
                         <a class="dropdown-item" href="https://csis-2440-ckhong.hostingerapp.com/ClassroomExercises/CE%2004/ReadingExampleForm.php">CE 04</a>
-                        <a class="dropdown-item" href="#">CE 04</a>
                         <a class="dropdown-item" href="#">CE 05</a>
-                        <a class="dropdown-item" href="#">CE 06</a>
+                        <a class="dropdown-item" href="http://csis-2440-ckhong.hostingerapp.com/ClassroomExercises/CE%2006/FillDB.php">CE 06</a>
                         <a class="dropdown-item" href="#">CE 07</a>
                         <a class="dropdown-item" href="#">CE 08</a>
                         <a class="dropdown-item" href="#">CE 09</a>
