@@ -11,12 +11,34 @@
 
     <title></title>
     <?php
+    require_once 'DataBaseConnection.php';
+    $fname = isset($_POST["firstName"]) ? $_POST["firstName"] : NULL;
+    $lname = isset($_POST["lastName"]) ? $_POST["lastName"] : NULL;
+    $email = isset($_POST["email"]) ? $_POST["email"] : NULL;
+    $bday = isset($_POST["birthday"]) ? $_POST["birthday"] : NULL;
+    $pwd = isset($_POST["pwd"]) ? $_POST["pwd"] : NULL;
+    $action = isset($_POST["Action"]) ? $_POST["Action"] : NULL;
 
     ?>
 </head>
 
 <body>
     <?php
+    //do the task we need to do using a switch
+    print("<fieldset>");
+    switch ($action) {
+        case "Insert":
+            include 'Add.php';
+            break;
+        case "Update":
+            include 'Update.php';
+            break;
+        case "Search":
+            include 'Search.php';
+            break;
+        default:
+            print("Something is wrong");
+    }
 
     ?>
 

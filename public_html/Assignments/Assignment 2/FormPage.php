@@ -10,12 +10,35 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title></title>
-    <?php
-        require_once 'DataBaseConnection.php';
-    ?>
+
 </head>
 
 <body>
+    <!-- Form for input -->
+    <form method="post" action="Results.php">
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input id="firstName" name="firstName" type="text" placeholder="Joe" class="form-control input-md" required="">
+            <label for="lastName">Last Name</label>
+            <input id="lastName" name="lastName" type="text" placeholder="Montana" class="form-control input-md" required="">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="text" placeholder="email@example.com" class="form-control input-md" required="">
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd">
+            <label class="col-md-4 control-label" for="Action">Select One</label>
+            <div class="col-md-4">
+                <select id="Action" name="Action" class="form-control">
+                    <option value="Search">Search</option>
+                    <option value="Insert">Add</option>
+                    <option value="Update">Update password</option>
+                </select>
+            </div>
+            <input type="submit" name="Submit" value="Submit">
+
+        </div>
+    </form>
     <?php
 
     ?>
